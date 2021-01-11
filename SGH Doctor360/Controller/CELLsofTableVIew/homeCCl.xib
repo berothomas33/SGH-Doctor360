@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="homeCCl" reuseIdentifier="homeCCl" id="gTV-IL-0wX" customClass="homeCCl" customModule="SGH_Doctor360" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="203"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="462" height="203"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZr-bb-CGq">
+                        <rect key="frame" x="0.0" y="5" width="462" height="203"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMa-68-hp6">
+                                <rect key="frame" x="4.5" y="2" width="453" height="199"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="p9b-di-q4D">
+                                        <rect key="frame" x="0.0" y="0.0" width="453" height="199"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="p9b-di-q4D" firstAttribute="top" secondItem="iMa-68-hp6" secondAttribute="top" id="AC2-Jc-ROu"/>
+                                    <constraint firstAttribute="trailing" secondItem="p9b-di-q4D" secondAttribute="trailing" id="Gdo-Md-D1z"/>
+                                    <constraint firstAttribute="bottom" secondItem="p9b-di-q4D" secondAttribute="bottom" id="gIx-3e-OKZ"/>
+                                    <constraint firstItem="p9b-di-q4D" firstAttribute="leading" secondItem="iMa-68-hp6" secondAttribute="leading" id="vFl-6k-dct"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iMa-68-hp6" firstAttribute="centerY" secondItem="HZr-bb-CGq" secondAttribute="centerY" id="EoO-cV-LpP"/>
+                            <constraint firstItem="iMa-68-hp6" firstAttribute="centerX" secondItem="HZr-bb-CGq" secondAttribute="centerX" id="H03-Yi-bFL"/>
+                            <constraint firstItem="iMa-68-hp6" firstAttribute="height" secondItem="HZr-bb-CGq" secondAttribute="height" multiplier="0.980296" id="qO1-L6-X31"/>
+                            <constraint firstItem="iMa-68-hp6" firstAttribute="width" secondItem="HZr-bb-CGq" secondAttribute="width" multiplier="0.980519" id="t70-V1-ILk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="HZr-bb-CGq" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Epk-jY-UNP"/>
+                <constraint firstItem="HZr-bb-CGq" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="HZt-WN-BHz"/>
+                <constraint firstItem="HZr-bb-CGq" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="NcA-g0-ag3"/>
+                <constraint firstItem="HZr-bb-CGq" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="kjI-aU-kq5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="462" height="203"/>
+            <connections>
+                <outlet property="bav" destination="p9b-di-q4D" id="UhW-ea-3EF"/>
+                <outlet property="mainBackground" destination="iMa-68-hp6" id="ZfD-1C-NIE"/>
+                <outlet property="shadowLayer" destination="HZr-bb-CGq" id="XDb-fC-bca"/>
+            </connections>
+            <point key="canvasLocation" x="286.95652173913044" y="70.647321428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="2" width="329.5" height="159"/>
+    </resources>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="LabResulautTCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="LabResulautTCell" id="KGk-i7-Jjw" customClass="LabResulautTCell" customModule="SGH_Doctor360" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5I-tq-c50">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2x-Ol-F1Q">
+                        <rect key="frame" x="264.5" y="5.5" width="33.5" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="e2x-Ol-F1Q" secondAttribute="height" id="Kgz-3f-1VX"/>
+                        </constraints>
+                        <state key="normal" image="closewindow"/>
+                        <connections>
+                            <action selector="Function:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NwZ-KU-pV9"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="n5I-tq-c50" secondAttribute="trailing" id="A9w-g0-5yR"/>
+                    <constraint firstItem="n5I-tq-c50" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DPE-1v-LFO"/>
+                    <constraint firstItem="n5I-tq-c50" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HpS-C7-jy4"/>
+                    <constraint firstItem="e2x-Ol-F1Q" firstAttribute="height" secondItem="n5I-tq-c50" secondAttribute="height" multiplier="0.76" id="IDi-fQ-Ro5"/>
+                    <constraint firstAttribute="trailing" secondItem="e2x-Ol-F1Q" secondAttribute="trailing" constant="22" id="Tcc-7U-yYA"/>
+                    <constraint firstAttribute="bottom" secondItem="n5I-tq-c50" secondAttribute="bottom" id="mxz-yc-ElO"/>
+                    <constraint firstItem="e2x-Ol-F1Q" firstAttribute="centerY" secondItem="n5I-tq-c50" secondAttribute="centerY" id="x66-mS-52a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Delete" destination="e2x-Ol-F1Q" id="0A7-zJ-fG7"/>
+                <outlet property="NameofDrugs" destination="n5I-tq-c50" id="k05-0g-XkC"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="closewindow" width="100" height="100"/>
+    </resources>
+</document>

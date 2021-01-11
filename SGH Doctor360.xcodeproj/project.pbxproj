@@ -3,27 +3,278 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E47CD2572809F00578691 /* AdmittedRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E47CC2572809F00578691 /* AdmittedRequestVC.swift */; };
+		040E48022572898D00578691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E48012572898D00578691 /* Main.storyboard */; };
+		040EC9542577AE7D0062F15F /* AdmissionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EC9532577AE7D0062F15F /* AdmissionRequest.swift */; };
+		040EC957257B93330062F15F /* CornerScorllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EC956257B93330062F15F /* CornerScorllView.swift */; };
+		040EC95A257BA5FC0062F15F /* PAckagePopUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EC959257BA5FC0062F15F /* PAckagePopUP.swift */; };
+		0419B973256FCEE400660632 /* OTPViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419B972256FCEE400660632 /* OTPViewC.swift */; };
+		042C9EE725940C740071B7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042C9EE625940C740071B7EF /* Assets.xcassets */; };
+		04B7724E258A326200682B86 /* MappleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B7724D258A326200682B86 /* MappleExtension.swift */; };
+		04EDF511257D041600FCE506 /* AdmittedPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDF510257D041600FCE506 /* AdmittedPackage.swift */; };
+		04F606F22573903A007FC5DE /* AdmissionPLaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F606F12573903A007FC5DE /* AdmissionPLaces.swift */; };
+		04F606F525739A97007FC5DE /* AdmissionForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F606F425739A97007FC5DE /* AdmissionForms.swift */; };
+		730D54EB24C5B47900C04EC0 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D54EA24C5B47900C04EC0 /* SearchController.swift */; };
 		7311E8EA24B3259100A96914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E8E924B3259100A96914 /* AppDelegate.swift */; };
 		7311E8EC24B3259100A96914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E8EB24B3259100A96914 /* SceneDelegate.swift */; };
 		7311E8EE24B3259100A96914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E8ED24B3259100A96914 /* ViewController.swift */; };
-		7311E8F124B3259100A96914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7311E8EF24B3259100A96914 /* Main.storyboard */; };
-		7311E8F324B3259300A96914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7311E8F224B3259300A96914 /* Assets.xcassets */; };
 		7311E8F624B3259300A96914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7311E8F424B3259300A96914 /* LaunchScreen.storyboard */; };
+		7311E92924B3267B00A96914 /* VistandlabRAdioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E8FE24B3267B00A96914 /* VistandlabRAdioController.swift */; };
+		7311E92A24B3267B00A96914 /* profileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E8FF24B3267B00A96914 /* profileVc.swift */; };
+		7311E92B24B3267B00A96914 /* AllPatientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90024B3267B00A96914 /* AllPatientList.swift */; };
+		7311E92C24B3267B00A96914 /* ReferallVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90124B3267B00A96914 /* ReferallVc.swift */; };
+		7311E92D24B3267B00A96914 /* VisitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E90324B3267B00A96914 /* VisitCell.xib */; };
+		7311E92E24B3267B00A96914 /* LabResulautTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90424B3267B00A96914 /* LabResulautTCell.swift */; };
+		7311E92F24B3267B00A96914 /* DrugSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E90524B3267B00A96914 /* DrugSelect.xib */; };
+		7311E93024B3267B00A96914 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E90624B3267B00A96914 /* TestCell.xib */; };
+		7311E93124B3267B00A96914 /* homeCCl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90724B3267B00A96914 /* homeCCl.swift */; };
+		7311E93224B3267B00A96914 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90824B3267B00A96914 /* TestCell.swift */; };
+		7311E93324B3267B00A96914 /* homeCCl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E90924B3267B00A96914 /* homeCCl.xib */; };
+		7311E93424B3267B00A96914 /* PatientTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90A24B3267B00A96914 /* PatientTestCell.swift */; };
+		7311E93524B3267B00A96914 /* TeleMedicineTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90B24B3267B00A96914 /* TeleMedicineTVC.swift */; };
+		7311E93624B3267B00A96914 /* LabResulautTCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E90C24B3267B00A96914 /* LabResulautTCell2.xib */; };
+		7311E93724B3267B00A96914 /* LabResulautTCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90D24B3267B00A96914 /* LabResulautTCell2.swift */; };
+		7311E93824B3267B00A96914 /* DrugSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90E24B3267B00A96914 /* DrugSelect.swift */; };
+		7311E93924B3267B00A96914 /* VisitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E90F24B3267B00A96914 /* VisitCell.swift */; };
+		7311E93A24B3267B00A96914 /* TeleMedicineTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E91024B3267B00A96914 /* TeleMedicineTVC.xib */; };
+		7311E93B24B3267B00A96914 /* PatientTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E91124B3267B00A96914 /* PatientTestCell.xib */; };
+		7311E93C24B3267B00A96914 /* ReFellSTVCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91224B3267B00A96914 /* ReFellSTVCells.swift */; };
+		7311E93D24B3267B00A96914 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91324B3267B00A96914 /* PatientCell.swift */; };
+		7311E93E24B3267B00A96914 /* LabResulautTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E91424B3267B00A96914 /* LabResulautTCell.xib */; };
+		7311E93F24B3267B00A96914 /* ReFellSTVCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E91524B3267B00A96914 /* ReFellSTVCells.xib */; };
+		7311E94024B3267B00A96914 /* PatientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7311E91624B3267B00A96914 /* PatientCell.xib */; };
+		7311E94124B3267B00A96914 /* PatientDEtails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91724B3267B00A96914 /* PatientDEtails.swift */; };
+		7311E94224B3267B00A96914 /* PatientDetailsimporve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91824B3267B00A96914 /* PatientDetailsimporve.swift */; };
+		7311E94324B3267B00A96914 /* LOginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91924B3267B00A96914 /* LOginVC.swift */; };
+		7311E94424B3267B00A96914 /* DiagonsisSeVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91A24B3267B00A96914 /* DiagonsisSeVCViewController.swift */; };
+		7311E94524B3267B00A96914 /* TeleMedicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91B24B3267B00A96914 /* TeleMedicine.swift */; };
+		7311E94624B3267B00A96914 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91C24B3267B00A96914 /* CalenderView.swift */; };
+		7311E94724B3267B00A96914 /* MessageVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91D24B3267B00A96914 /* MessageVc.swift */; };
+		7311E94824B3267B00A96914 /* DrugSelectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91E24B3267B00A96914 /* DrugSelectController.swift */; };
+		7311E94924B3267B00A96914 /* MakeOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E91F24B3267B00A96914 /* MakeOrderVC.swift */; };
+		7311E94A24B3267B00A96914 /* FinalOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92024B3267B00A96914 /* FinalOrderVC.swift */; };
+		7311E94B24B3267B00A96914 /* RadioDoctorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92124B3267B00A96914 /* RadioDoctorList.swift */; };
+		7311E94C24B3267B00A96914 /* RiGHTTTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92324B3267B00A96914 /* RiGHTTTVC.swift */; };
+		7311E94D24B3267B00A96914 /* RIghtleftMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92424B3267B00A96914 /* RIghtleftMenu.swift */; };
+		7311E94E24B3267B00A96914 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92524B3267B00A96914 /* HomeVC.swift */; };
+		7311E94F24B3267B00A96914 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92624B3267B00A96914 /* CustomTabbarController.swift */; };
+		7311E95024B3267B00A96914 /* Luncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92724B3267B00A96914 /* Luncher.swift */; };
+		7311E95124B3267B00A96914 /* PreCriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E92824B3267B00A96914 /* PreCriptionVC.swift */; };
+		7311E96A24B326ED00A96914 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95524B326EC00A96914 /* UIImageViewExtension.swift */; };
+		7311E96B24B326ED00A96914 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95624B326EC00A96914 /* UIColorExtension.swift */; };
+		7311E96C24B326ED00A96914 /* UIScrollViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95724B326EC00A96914 /* UIScrollViewExtensions.swift */; };
+		7311E96D24B326ED00A96914 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95824B326EC00A96914 /* ExtensionView.swift */; };
+		7311E96E24B326ED00A96914 /* valadionExtnisiom .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95924B326EC00A96914 /* valadionExtnisiom .swift */; };
+		7311E96F24B326ED00A96914 /* ExtensionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95A24B326EC00A96914 /* ExtensionObject.swift */; };
+		7311E97024B326ED00A96914 /* Extensiondata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95B24B326EC00A96914 /* Extensiondata.swift */; };
+		7311E97124B326ED00A96914 /* extensiondictionery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95C24B326EC00A96914 /* extensiondictionery.swift */; };
+		7311E97224B326ED00A96914 /* cutomview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95E24B326EC00A96914 /* cutomview.swift */; };
+		7311E97324B326ED00A96914 /* custombutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E95F24B326EC00A96914 /* custombutton.swift */; };
+		7311E97424B326ED00A96914 /* coircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96024B326EC00A96914 /* coircular.swift */; };
+		7311E97524B326ED00A96914 /* CirulartextFIeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96124B326EC00A96914 /* CirulartextFIeld.swift */; };
+		7311E97624B326ED00A96914 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96224B326EC00A96914 /* CustomTextField.swift */; };
+		7311E97724B326ED00A96914 /* MainStackToolbarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96324B326EC00A96914 /* MainStackToolbarViews.swift */; };
+		7311E97824B326ED00A96914 /* CircularTextFIEld2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96424B326EC00A96914 /* CircularTextFIEld2.swift */; };
+		7311E97924B326ED00A96914 /* Customlabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96524B326EC00A96914 /* Customlabel.swift */; };
+		7311E97A24B326ED00A96914 /* Customtextlabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96624B326EC00A96914 /* Customtextlabel.swift */; };
+		7311E97B24B326ED00A96914 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96824B326EC00A96914 /* ENSideMenu.swift */; };
+		7311E97C24B326ED00A96914 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E96924B326EC00A96914 /* ENSideMenuNavigationController.swift */; };
+		7311EA0524B327BA00A96914 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9D824B327B900A96914 /* RealmService.swift */; };
+		7311EA0624B327BA00A96914 /* RouteAdminSaved2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9D924B327B900A96914 /* RouteAdminSaved2.swift */; };
+		7311EA0724B327BA00A96914 /* DiagonSElectd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9DA24B327B900A96914 /* DiagonSElectd.swift */; };
+		7311EA0824B327BA00A96914 /* LabTestSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9DB24B327B900A96914 /* LabTestSelected.swift */; };
+		7311EA0924B327BA00A96914 /* LabTestSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9DC24B327B900A96914 /* LabTestSaved.swift */; };
+		7311EA0A24B327BA00A96914 /* DiagonsicSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9DD24B327B900A96914 /* DiagonsicSaved.swift */; };
+		7311EA0B24B327BA00A96914 /* RadioSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9DE24B327B900A96914 /* RadioSelected.swift */; };
+		7311EA0C24B327BA00A96914 /* DuarationSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9DF24B327B900A96914 /* DuarationSaved.swift */; };
+		7311EA0D24B327BA00A96914 /* DrugsSaved4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E024B327B900A96914 /* DrugsSaved4.swift */; };
+		7311EA0E24B327BA00A96914 /* RadiologySaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E124B327B900A96914 /* RadiologySaved.swift */; };
+		7311EA0F24B327BA00A96914 /* FreqSaved2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E224B327B900A96914 /* FreqSaved2.swift */; };
+		7311EA1024B327BA00A96914 /* PrexcriptionFinalSaved2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E324B327B900A96914 /* PrexcriptionFinalSaved2.swift */; };
+		7311EA1124B327BA00A96914 /* DocotrTestlistReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E524B327B900A96914 /* DocotrTestlistReq.swift */; };
+		7311EA1224B327BA00A96914 /* DoctorDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E624B327B900A96914 /* DoctorDataList.swift */; };
+		7311EA1324B327BA00A96914 /* PCBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E724B327B900A96914 /* PCBaseModel.swift */; };
+		7311EA1424B327BA00A96914 /* Visitlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E824B327B900A96914 /* Visitlist.swift */; };
+		7311EA1524B327BA00A96914 /* Frequncylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9E924B327B900A96914 /* Frequncylist.swift */; };
+		7311EA1624B327BA00A96914 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9EA24B327B900A96914 /* Doctor.swift */; };
+		7311EA1724B327BA00A96914 /* labTestDoctorlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9EB24B327B900A96914 /* labTestDoctorlist.swift */; };
+		7311EA1824B327BA00A96914 /* DrugLists .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9EC24B327B900A96914 /* DrugLists .swift */; };
+		7311EA1924B327BA00A96914 /* Diagonisclist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9ED24B327B900A96914 /* Diagonisclist.swift */; };
+		7311EA1A24B327BA00A96914 /* Precrptionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9EE24B327B900A96914 /* Precrptionlist.swift */; };
+		7311EA1B24B327BA00A96914 /* ReFerralsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9EF24B327B900A96914 /* ReFerralsList.swift */; };
+		7311EA1C24B327BA00A96914 /* RouteAdminLIst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F024B327B900A96914 /* RouteAdminLIst.swift */; };
+		7311EA1D24B327BA00A96914 /* DiagonDoctorlist .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F124B327B900A96914 /* DiagonDoctorlist .swift */; };
+		7311EA1E24B327BA00A96914 /* DruglistSented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F224B327B900A96914 /* DruglistSented.swift */; };
+		7311EA1F24B327BA00A96914 /* TestlistR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F324B327B900A96914 /* TestlistR.swift */; };
+		7311EA2024B327BA00A96914 /* HospitaLlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F424B327B900A96914 /* HospitaLlists.swift */; };
+		7311EA2124B327BA00A96914 /* Duarationlistobj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F524B327B900A96914 /* Duarationlistobj.swift */; };
+		7311EA2224B327BA00A96914 /* TeleMedicineOBJEct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F624B327B900A96914 /* TeleMedicineOBJEct.swift */; };
+		7311EA2324B327BA00A96914 /* Testlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F724B327B900A96914 /* Testlist.swift */; };
+		7311EA2424B327BA00A96914 /* PCBaseModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9F824B327B900A96914 /* PCBaseModel2.swift */; };
+		7311EA2524B327BA00A96914 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9FA24B327B900A96914 /* APIClient.swift */; };
+		7311EA2624B327BA00A96914 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9FB24B327B900A96914 /* API.swift */; };
+		7311EA2724B327BA00A96914 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9FD24B327BA00A96914 /* constants.swift */; };
+		7311EA2824B327BA00A96914 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9FE24B327BA00A96914 /* Language.swift */; };
+		7311EA2924B327BA00A96914 /* BundleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311E9FF24B327BA00A96914 /* BundleEx.swift */; };
+		7311EA2A24B327BA00A96914 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA0024B327BA00A96914 /* LocalizationSystem.swift */; };
+		7311EA2B24B327BA00A96914 /* extensindata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA0124B327BA00A96914 /* extensindata.swift */; };
+		7311EA2C24B327BA00A96914 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA0224B327BA00A96914 /* UIApplicationExtension.swift */; };
+		7311EA2D24B327BA00A96914 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA0324B327BA00A96914 /* Cache.swift */; };
+		7311EA2E24B327BA00A96914 /* ResulatsEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA0424B327BA00A96914 /* ResulatsEX.swift */; };
+		7311EA3424B328B800A96914 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA3324B328B800A96914 /* iOSDropDown.swift */; };
+		7311EA3624B328C000A96914 /* DiagonsisDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA3524B328BF00A96914 /* DiagonsisDropDown.swift */; };
+		7311EA3824B328C600A96914 /* DrugDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA3724B328C600A96914 /* DrugDropDown.swift */; };
+		7311EA3A24B328CD00A96914 /* LabDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA3924B328CC00A96914 /* LabDropDown.swift */; };
+		7311EA3C24B328D400A96914 /* RadiologyDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EA3B24B328D300A96914 /* RadiologyDropDown.swift */; };
+		736483CD24B6FE8D00642A3C /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736483CC24B6FE8D00642A3C /* CircularView.swift */; };
+		73AEA7612500F0EA0023FE61 /* ProcdeureDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AEA7602500F0EA0023FE61 /* ProcdeureDropDown.swift */; };
+		73D8A27425079096005E0D24 /* DrugsDetailsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8A27325079096005E0D24 /* DrugsDetailsVc.swift */; };
+		73D9A9C524F3CF62005E9EA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73D9A9C424F3CF62005E9EA5 /* GoogleService-Info.plist */; };
+		73EB8E0425051FA900F5B393 /* ProcedureSaveed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB8E0325051FA900F5B393 /* ProcedureSaveed.swift */; };
+		73EB8E062505202100F5B393 /* ProcdeureSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EB8E052505202100F5B393 /* ProcdeureSelected.swift */; };
+		D55D94862E3899BA0C149410 /* Pods_SGH_Doctor360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33B2302291633F5B2415C31 /* Pods_SGH_Doctor360.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040E47CC2572809F00578691 /* AdmittedRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdmittedRequestVC.swift; path = "SGH Doctor360/Controller/AdmittedRequestVC.swift"; sourceTree = SOURCE_ROOT; };
+		040E48012572898D00578691 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		040EC9532577AE7D0062F15F /* AdmissionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionRequest.swift; sourceTree = "<group>"; };
+		040EC956257B93330062F15F /* CornerScorllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CornerScorllView.swift; path = "SGH Doctor360/VIEW/Helper/designable/CornerScorllView.swift"; sourceTree = SOURCE_ROOT; };
+		040EC959257BA5FC0062F15F /* PAckagePopUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PAckagePopUP.swift; path = "SGH Doctor360/Controller/PAckagePopUP.swift"; sourceTree = SOURCE_ROOT; };
+		0419B972256FCEE400660632 /* OTPViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OTPViewC.swift; path = "SGH Doctor360/Controller/OTPViewC.swift"; sourceTree = SOURCE_ROOT; };
+		042C9EE625940C740071B7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		04B7724D258A326200682B86 /* MappleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MappleExtension.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/MappleExtension.swift"; sourceTree = SOURCE_ROOT; };
+		04EDF510257D041600FCE506 /* AdmittedPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmittedPackage.swift; sourceTree = "<group>"; };
+		04F606F12573903A007FC5DE /* AdmissionPLaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionPLaces.swift; sourceTree = "<group>"; };
+		04F606F425739A97007FC5DE /* AdmissionForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmissionForms.swift; sourceTree = "<group>"; };
+		4EEE5659B6761C26BF6D8056 /* Pods-SGH Doctor360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGH Doctor360.debug.xcconfig"; path = "Target Support Files/Pods-SGH Doctor360/Pods-SGH Doctor360.debug.xcconfig"; sourceTree = "<group>"; };
+		730D54EA24C5B47900C04EC0 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchController.swift; path = "SGH Doctor360/Controller/SearchController.swift"; sourceTree = SOURCE_ROOT; };
 		7311E8E624B3259100A96914 /* SGH Doctor360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SGH Doctor360.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7311E8E924B3259100A96914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7311E8EB24B3259100A96914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7311E8ED24B3259100A96914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7311E8F024B3259100A96914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7311E8F224B3259300A96914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7311E8E924B3259100A96914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "SGH Doctor360/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		7311E8EB24B3259100A96914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "SGH Doctor360/SceneDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		7311E8ED24B3259100A96914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "SGH Doctor360/ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		7311E8F524B3259300A96914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7311E8F724B3259300A96914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7311E8FE24B3267B00A96914 /* VistandlabRAdioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VistandlabRAdioController.swift; path = "SGH Doctor360/Controller/VistandlabRAdioController.swift"; sourceTree = SOURCE_ROOT; };
+		7311E8FF24B3267B00A96914 /* profileVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = profileVc.swift; path = "SGH Doctor360/Controller/profileVc.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90024B3267B00A96914 /* AllPatientList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllPatientList.swift; path = "SGH Doctor360/Controller/AllPatientList.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90124B3267B00A96914 /* ReferallVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReferallVc.swift; path = "SGH Doctor360/Controller/ReferallVc.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90324B3267B00A96914 /* VisitCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VisitCell.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/VisitCell.xib"; sourceTree = SOURCE_ROOT; };
+		7311E90424B3267B00A96914 /* LabResulautTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabResulautTCell.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/LabResulautTCell.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90524B3267B00A96914 /* DrugSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DrugSelect.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/DrugSelect.xib"; sourceTree = SOURCE_ROOT; };
+		7311E90624B3267B00A96914 /* TestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestCell.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/TestCell.xib"; sourceTree = SOURCE_ROOT; };
+		7311E90724B3267B00A96914 /* homeCCl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = homeCCl.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/homeCCl.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90824B3267B00A96914 /* TestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestCell.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/TestCell.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90924B3267B00A96914 /* homeCCl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = homeCCl.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/homeCCl.xib"; sourceTree = SOURCE_ROOT; };
+		7311E90A24B3267B00A96914 /* PatientTestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientTestCell.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/PatientTestCell.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90B24B3267B00A96914 /* TeleMedicineTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeleMedicineTVC.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/TeleMedicineTVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90C24B3267B00A96914 /* LabResulautTCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabResulautTCell2.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/LabResulautTCell2.xib"; sourceTree = SOURCE_ROOT; };
+		7311E90D24B3267B00A96914 /* LabResulautTCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabResulautTCell2.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/LabResulautTCell2.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90E24B3267B00A96914 /* DrugSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugSelect.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/DrugSelect.swift"; sourceTree = SOURCE_ROOT; };
+		7311E90F24B3267B00A96914 /* VisitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisitCell.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/VisitCell.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91024B3267B00A96914 /* TeleMedicineTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TeleMedicineTVC.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/TeleMedicineTVC.xib"; sourceTree = SOURCE_ROOT; };
+		7311E91124B3267B00A96914 /* PatientTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PatientTestCell.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/PatientTestCell.xib"; sourceTree = SOURCE_ROOT; };
+		7311E91224B3267B00A96914 /* ReFellSTVCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReFellSTVCells.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/ReFellSTVCells.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91324B3267B00A96914 /* PatientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientCell.swift; path = "SGH Doctor360/Controller/CELLsofTableVIew/PatientCell.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91424B3267B00A96914 /* LabResulautTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LabResulautTCell.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/LabResulautTCell.xib"; sourceTree = SOURCE_ROOT; };
+		7311E91524B3267B00A96914 /* ReFellSTVCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReFellSTVCells.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/ReFellSTVCells.xib"; sourceTree = SOURCE_ROOT; };
+		7311E91624B3267B00A96914 /* PatientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PatientCell.xib; path = "SGH Doctor360/Controller/CELLsofTableVIew/PatientCell.xib"; sourceTree = SOURCE_ROOT; };
+		7311E91724B3267B00A96914 /* PatientDEtails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientDEtails.swift; path = "SGH Doctor360/Controller/PatientDEtails.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91824B3267B00A96914 /* PatientDetailsimporve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PatientDetailsimporve.swift; path = "SGH Doctor360/Controller/PatientDetailsimporve.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91924B3267B00A96914 /* LOginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LOginVC.swift; path = "SGH Doctor360/Controller/LOginVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91A24B3267B00A96914 /* DiagonsisSeVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagonsisSeVCViewController.swift; path = "SGH Doctor360/Controller/DiagonsisSeVCViewController.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91B24B3267B00A96914 /* TeleMedicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeleMedicine.swift; path = "SGH Doctor360/Controller/TeleMedicine.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91C24B3267B00A96914 /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalenderView.swift; path = "SGH Doctor360/Controller/CalenderView.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91D24B3267B00A96914 /* MessageVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageVc.swift; path = "SGH Doctor360/Controller/MessageVc.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91E24B3267B00A96914 /* DrugSelectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugSelectController.swift; path = "SGH Doctor360/Controller/DrugSelectController.swift"; sourceTree = SOURCE_ROOT; };
+		7311E91F24B3267B00A96914 /* MakeOrderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakeOrderVC.swift; path = "SGH Doctor360/Controller/MakeOrderVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92024B3267B00A96914 /* FinalOrderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinalOrderVC.swift; path = "SGH Doctor360/Controller/FinalOrderVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92124B3267B00A96914 /* RadioDoctorList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioDoctorList.swift; path = "SGH Doctor360/Controller/RadioDoctorList.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92324B3267B00A96914 /* RiGHTTTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RiGHTTTVC.swift; path = "SGH Doctor360/Controller/SIDEMENu/RiGHTTTVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92424B3267B00A96914 /* RIghtleftMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RIghtleftMenu.swift; path = "SGH Doctor360/Controller/SIDEMENu/RIghtleftMenu.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92524B3267B00A96914 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = "SGH Doctor360/Controller/HomeVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92624B3267B00A96914 /* CustomTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabbarController.swift; path = "SGH Doctor360/Controller/CustomTabbarController.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92724B3267B00A96914 /* Luncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Luncher.swift; path = "SGH Doctor360/Controller/Luncher.swift"; sourceTree = SOURCE_ROOT; };
+		7311E92824B3267B00A96914 /* PreCriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreCriptionVC.swift; path = "SGH Doctor360/Controller/PreCriptionVC.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95524B326EC00A96914 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/UIImageViewExtension.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95624B326EC00A96914 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/UIColorExtension.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95724B326EC00A96914 /* UIScrollViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIScrollViewExtensions.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/UIScrollViewExtensions.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95824B326EC00A96914 /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionView.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/ExtensionView.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95924B326EC00A96914 /* valadionExtnisiom .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "valadionExtnisiom .swift"; path = "SGH Doctor360/VIEW/Helper/extinstion/valadionExtnisiom .swift"; sourceTree = SOURCE_ROOT; };
+		7311E95A24B326EC00A96914 /* ExtensionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtensionObject.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/ExtensionObject.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95B24B326EC00A96914 /* Extensiondata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensiondata.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/Extensiondata.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95C24B326EC00A96914 /* extensiondictionery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extensiondictionery.swift; path = "SGH Doctor360/VIEW/Helper/extinstion/extensiondictionery.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95E24B326EC00A96914 /* cutomview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cutomview.swift; path = "SGH Doctor360/VIEW/Helper/designable/cutomview.swift"; sourceTree = SOURCE_ROOT; };
+		7311E95F24B326EC00A96914 /* custombutton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = custombutton.swift; path = "SGH Doctor360/VIEW/Helper/designable/custombutton.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96024B326EC00A96914 /* coircular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = coircular.swift; path = "SGH Doctor360/VIEW/Helper/designable/coircular.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96124B326EC00A96914 /* CirulartextFIeld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CirulartextFIeld.swift; path = "SGH Doctor360/VIEW/Helper/designable/CirulartextFIeld.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96224B326EC00A96914 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = "SGH Doctor360/VIEW/Helper/designable/CustomTextField.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96324B326EC00A96914 /* MainStackToolbarViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainStackToolbarViews.swift; path = "SGH Doctor360/VIEW/Helper/designable/MainStackToolbarViews.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96424B326EC00A96914 /* CircularTextFIEld2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularTextFIEld2.swift; path = "SGH Doctor360/VIEW/Helper/designable/CircularTextFIEld2.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96524B326EC00A96914 /* Customlabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Customlabel.swift; path = "SGH Doctor360/VIEW/Helper/designable/Customlabel.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96624B326EC00A96914 /* Customtextlabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Customtextlabel.swift; path = "SGH Doctor360/VIEW/Helper/designable/Customtextlabel.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96824B326EC00A96914 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ENSideMenu.swift; path = "SGH Doctor360/VIEW/Helper/Library/ENSideMenu.swift"; sourceTree = SOURCE_ROOT; };
+		7311E96924B326EC00A96914 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ENSideMenuNavigationController.swift; path = "SGH Doctor360/VIEW/Helper/Library/ENSideMenuNavigationController.swift"; sourceTree = SOURCE_ROOT; };
+		7311E9D824B327B900A96914 /* RealmService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		7311E9D924B327B900A96914 /* RouteAdminSaved2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteAdminSaved2.swift; sourceTree = "<group>"; };
+		7311E9DA24B327B900A96914 /* DiagonSElectd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonSElectd.swift; sourceTree = "<group>"; };
+		7311E9DB24B327B900A96914 /* LabTestSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabTestSelected.swift; sourceTree = "<group>"; };
+		7311E9DC24B327B900A96914 /* LabTestSaved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabTestSaved.swift; sourceTree = "<group>"; };
+		7311E9DD24B327B900A96914 /* DiagonsicSaved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonsicSaved.swift; sourceTree = "<group>"; };
+		7311E9DE24B327B900A96914 /* RadioSelected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioSelected.swift; sourceTree = "<group>"; };
+		7311E9DF24B327B900A96914 /* DuarationSaved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuarationSaved.swift; sourceTree = "<group>"; };
+		7311E9E024B327B900A96914 /* DrugsSaved4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrugsSaved4.swift; sourceTree = "<group>"; };
+		7311E9E124B327B900A96914 /* RadiologySaved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiologySaved.swift; sourceTree = "<group>"; };
+		7311E9E224B327B900A96914 /* FreqSaved2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreqSaved2.swift; sourceTree = "<group>"; };
+		7311E9E324B327B900A96914 /* PrexcriptionFinalSaved2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrexcriptionFinalSaved2.swift; sourceTree = "<group>"; };
+		7311E9E524B327B900A96914 /* DocotrTestlistReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocotrTestlistReq.swift; sourceTree = "<group>"; };
+		7311E9E624B327B900A96914 /* DoctorDataList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorDataList.swift; sourceTree = "<group>"; };
+		7311E9E724B327B900A96914 /* PCBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCBaseModel.swift; sourceTree = "<group>"; };
+		7311E9E824B327B900A96914 /* Visitlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visitlist.swift; sourceTree = "<group>"; };
+		7311E9E924B327B900A96914 /* Frequncylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frequncylist.swift; sourceTree = "<group>"; };
+		7311E9EA24B327B900A96914 /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		7311E9EB24B327B900A96914 /* labTestDoctorlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = labTestDoctorlist.swift; sourceTree = "<group>"; };
+		7311E9EC24B327B900A96914 /* DrugLists .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DrugLists .swift"; sourceTree = "<group>"; };
+		7311E9ED24B327B900A96914 /* Diagonisclist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diagonisclist.swift; sourceTree = "<group>"; };
+		7311E9EE24B327B900A96914 /* Precrptionlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Precrptionlist.swift; sourceTree = "<group>"; };
+		7311E9EF24B327B900A96914 /* ReFerralsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReFerralsList.swift; sourceTree = "<group>"; };
+		7311E9F024B327B900A96914 /* RouteAdminLIst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteAdminLIst.swift; sourceTree = "<group>"; };
+		7311E9F124B327B900A96914 /* DiagonDoctorlist .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DiagonDoctorlist .swift"; sourceTree = "<group>"; };
+		7311E9F224B327B900A96914 /* DruglistSented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DruglistSented.swift; sourceTree = "<group>"; };
+		7311E9F324B327B900A96914 /* TestlistR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestlistR.swift; sourceTree = "<group>"; };
+		7311E9F424B327B900A96914 /* HospitaLlists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitaLlists.swift; sourceTree = "<group>"; };
+		7311E9F524B327B900A96914 /* Duarationlistobj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duarationlistobj.swift; sourceTree = "<group>"; };
+		7311E9F624B327B900A96914 /* TeleMedicineOBJEct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeleMedicineOBJEct.swift; sourceTree = "<group>"; };
+		7311E9F724B327B900A96914 /* Testlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testlist.swift; sourceTree = "<group>"; };
+		7311E9F824B327B900A96914 /* PCBaseModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCBaseModel2.swift; sourceTree = "<group>"; };
+		7311E9FA24B327B900A96914 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7311E9FB24B327B900A96914 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7311E9FD24B327BA00A96914 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		7311E9FE24B327BA00A96914 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		7311E9FF24B327BA00A96914 /* BundleEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleEx.swift; sourceTree = "<group>"; };
+		7311EA0024B327BA00A96914 /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		7311EA0124B327BA00A96914 /* extensindata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensindata.swift; sourceTree = "<group>"; };
+		7311EA0224B327BA00A96914 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		7311EA0324B327BA00A96914 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		7311EA0424B327BA00A96914 /* ResulatsEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResulatsEX.swift; sourceTree = "<group>"; };
+		7311EA3324B328B800A96914 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = "SGH Doctor360/iOSDropDown.swift"; sourceTree = SOURCE_ROOT; };
+		7311EA3524B328BF00A96914 /* DiagonsisDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagonsisDropDown.swift; path = "SGH Doctor360/DiagonsisDropDown.swift"; sourceTree = SOURCE_ROOT; };
+		7311EA3724B328C600A96914 /* DrugDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrugDropDown.swift; path = "SGH Doctor360/DrugDropDown.swift"; sourceTree = SOURCE_ROOT; };
+		7311EA3924B328CC00A96914 /* LabDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabDropDown.swift; path = "SGH Doctor360/LabDropDown.swift"; sourceTree = SOURCE_ROOT; };
+		7311EA3B24B328D300A96914 /* RadiologyDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadiologyDropDown.swift; path = "SGH Doctor360/RadiologyDropDown.swift"; sourceTree = SOURCE_ROOT; };
+		736483CC24B6FE8D00642A3C /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularView.swift; path = "SGH Doctor360/VIEW/Helper/designable/CircularView.swift"; sourceTree = SOURCE_ROOT; };
+		73AEA7602500F0EA0023FE61 /* ProcdeureDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcdeureDropDown.swift; sourceTree = "<group>"; };
+		73D8A27325079096005E0D24 /* DrugsDetailsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DrugsDetailsVc.swift; path = "SGH Doctor360/Controller/DrugsDetailsVc.swift"; sourceTree = SOURCE_ROOT; };
+		73D9A9C324F3C4FB005E9EA5 /* SGH Doctor360.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SGH Doctor360.entitlements"; sourceTree = "<group>"; };
+		73D9A9C424F3CF62005E9EA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "SGH Doctor360/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		73EB8E0325051FA900F5B393 /* ProcedureSaveed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureSaveed.swift; sourceTree = "<group>"; };
+		73EB8E052505202100F5B393 /* ProcdeureSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcdeureSelected.swift; sourceTree = "<group>"; };
+		E33B2302291633F5B2415C31 /* Pods_SGH_Doctor360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGH_Doctor360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00CFCD13DAD6CEBBBA8AECF /* Pods-SGH Doctor360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGH Doctor360.release.xcconfig"; path = "Target Support Files/Pods-SGH Doctor360/Pods-SGH Doctor360.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +282,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55D94862E3899BA0C149410 /* Pods_SGH_Doctor360.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D8AC7E45A8F725383FD19BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33B2302291633F5B2415C31 /* Pods_SGH_Doctor360.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7311E8DD24B3259100A96914 = {
 			isa = PBXGroup;
 			children = (
 				7311E8E824B3259100A96914 /* SGH Doctor360 */,
 				7311E8E724B3259100A96914 /* Products */,
+				ECB3D947E0702FABBE370E65 /* Pods */,
+				3D8AC7E45A8F725383FD19BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +318,258 @@
 		7311E8E824B3259100A96914 /* SGH Doctor360 */ = {
 			isa = PBXGroup;
 			children = (
+				73D9A9C324F3C4FB005E9EA5 /* SGH Doctor360.entitlements */,
+				7311E95224B326EC00A96914 /* VIEW */,
+				7311E8FD24B3267B00A96914 /* Controller */,
+				7311E9D624B327B900A96914 /* MODULE */,
 				7311E8E924B3259100A96914 /* AppDelegate.swift */,
+				7311EA3324B328B800A96914 /* iOSDropDown.swift */,
 				7311E8EB24B3259100A96914 /* SceneDelegate.swift */,
+				7311EA3724B328C600A96914 /* DrugDropDown.swift */,
+				7311EA3924B328CC00A96914 /* LabDropDown.swift */,
+				040E48012572898D00578691 /* Main.storyboard */,
+				7311EA3B24B328D300A96914 /* RadiologyDropDown.swift */,
+				73D9A9C424F3CF62005E9EA5 /* GoogleService-Info.plist */,
+				7311EA3524B328BF00A96914 /* DiagonsisDropDown.swift */,
 				7311E8ED24B3259100A96914 /* ViewController.swift */,
-				7311E8EF24B3259100A96914 /* Main.storyboard */,
-				7311E8F224B3259300A96914 /* Assets.xcassets */,
+				042C9EE625940C740071B7EF /* Assets.xcassets */,
 				7311E8F424B3259300A96914 /* LaunchScreen.storyboard */,
 				7311E8F724B3259300A96914 /* Info.plist */,
+				73AEA7602500F0EA0023FE61 /* ProcdeureDropDown.swift */,
 			);
 			path = "SGH Doctor360";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E8FD24B3267B00A96914 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040E47CC2572809F00578691 /* AdmittedRequestVC.swift */,
+				7311E8FE24B3267B00A96914 /* VistandlabRAdioController.swift */,
+				7311E8FF24B3267B00A96914 /* profileVc.swift */,
+				7311E90024B3267B00A96914 /* AllPatientList.swift */,
+				7311E90124B3267B00A96914 /* ReferallVc.swift */,
+				7311E90224B3267B00A96914 /* CELLsofTableVIew */,
+				7311E91724B3267B00A96914 /* PatientDEtails.swift */,
+				7311E91824B3267B00A96914 /* PatientDetailsimporve.swift */,
+				7311E91924B3267B00A96914 /* LOginVC.swift */,
+				7311E91A24B3267B00A96914 /* DiagonsisSeVCViewController.swift */,
+				7311E91B24B3267B00A96914 /* TeleMedicine.swift */,
+				7311E91C24B3267B00A96914 /* CalenderView.swift */,
+				7311E91D24B3267B00A96914 /* MessageVc.swift */,
+				7311E91E24B3267B00A96914 /* DrugSelectController.swift */,
+				7311E91F24B3267B00A96914 /* MakeOrderVC.swift */,
+				7311E92024B3267B00A96914 /* FinalOrderVC.swift */,
+				7311E92124B3267B00A96914 /* RadioDoctorList.swift */,
+				7311E92224B3267B00A96914 /* SIDEMENu */,
+				7311E92524B3267B00A96914 /* HomeVC.swift */,
+				7311E92624B3267B00A96914 /* CustomTabbarController.swift */,
+				7311E92724B3267B00A96914 /* Luncher.swift */,
+				7311E92824B3267B00A96914 /* PreCriptionVC.swift */,
+				730D54EA24C5B47900C04EC0 /* SearchController.swift */,
+				73D8A27325079096005E0D24 /* DrugsDetailsVc.swift */,
+				0419B972256FCEE400660632 /* OTPViewC.swift */,
+				040EC959257BA5FC0062F15F /* PAckagePopUP.swift */,
+			);
+			name = Controller;
+			path = "SGH Doctor360/Controller";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E90224B3267B00A96914 /* CELLsofTableVIew */ = {
+			isa = PBXGroup;
+			children = (
+				7311E90324B3267B00A96914 /* VisitCell.xib */,
+				7311E90424B3267B00A96914 /* LabResulautTCell.swift */,
+				7311E90524B3267B00A96914 /* DrugSelect.xib */,
+				7311E90624B3267B00A96914 /* TestCell.xib */,
+				7311E90724B3267B00A96914 /* homeCCl.swift */,
+				7311E90824B3267B00A96914 /* TestCell.swift */,
+				7311E90924B3267B00A96914 /* homeCCl.xib */,
+				7311E90A24B3267B00A96914 /* PatientTestCell.swift */,
+				7311E90B24B3267B00A96914 /* TeleMedicineTVC.swift */,
+				7311E90C24B3267B00A96914 /* LabResulautTCell2.xib */,
+				7311E90D24B3267B00A96914 /* LabResulautTCell2.swift */,
+				7311E90E24B3267B00A96914 /* DrugSelect.swift */,
+				7311E90F24B3267B00A96914 /* VisitCell.swift */,
+				7311E91024B3267B00A96914 /* TeleMedicineTVC.xib */,
+				7311E91124B3267B00A96914 /* PatientTestCell.xib */,
+				7311E91224B3267B00A96914 /* ReFellSTVCells.swift */,
+				7311E91324B3267B00A96914 /* PatientCell.swift */,
+				7311E91424B3267B00A96914 /* LabResulautTCell.xib */,
+				7311E91524B3267B00A96914 /* ReFellSTVCells.xib */,
+				7311E91624B3267B00A96914 /* PatientCell.xib */,
+			);
+			name = CELLsofTableVIew;
+			path = "SGH Doctor360/Controller/CELLsofTableVIew";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E92224B3267B00A96914 /* SIDEMENu */ = {
+			isa = PBXGroup;
+			children = (
+				7311E92324B3267B00A96914 /* RiGHTTTVC.swift */,
+				7311E92424B3267B00A96914 /* RIghtleftMenu.swift */,
+			);
+			name = SIDEMENu;
+			path = "SGH Doctor360/Controller/SIDEMENu";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E95224B326EC00A96914 /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				7311E95324B326EC00A96914 /* Helper */,
+			);
+			name = VIEW;
+			path = "SGH Doctor360/VIEW";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E95324B326EC00A96914 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7311E95424B326EC00A96914 /* extinstion */,
+				7311E95D24B326EC00A96914 /* designable */,
+				7311E96724B326EC00A96914 /* Library */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7311E95424B326EC00A96914 /* extinstion */ = {
+			isa = PBXGroup;
+			children = (
+				7311E95524B326EC00A96914 /* UIImageViewExtension.swift */,
+				7311E95624B326EC00A96914 /* UIColorExtension.swift */,
+				7311E95724B326EC00A96914 /* UIScrollViewExtensions.swift */,
+				7311E95824B326EC00A96914 /* ExtensionView.swift */,
+				7311E95924B326EC00A96914 /* valadionExtnisiom .swift */,
+				7311E95A24B326EC00A96914 /* ExtensionObject.swift */,
+				7311E95B24B326EC00A96914 /* Extensiondata.swift */,
+				7311E95C24B326EC00A96914 /* extensiondictionery.swift */,
+				04B7724D258A326200682B86 /* MappleExtension.swift */,
+			);
+			name = extinstion;
+			path = "SGH Doctor360/VIEW/Helper/extinstion";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E95D24B326EC00A96914 /* designable */ = {
+			isa = PBXGroup;
+			children = (
+				7311E95E24B326EC00A96914 /* cutomview.swift */,
+				7311E95F24B326EC00A96914 /* custombutton.swift */,
+				7311E96024B326EC00A96914 /* coircular.swift */,
+				7311E96124B326EC00A96914 /* CirulartextFIeld.swift */,
+				7311E96224B326EC00A96914 /* CustomTextField.swift */,
+				7311E96324B326EC00A96914 /* MainStackToolbarViews.swift */,
+				7311E96424B326EC00A96914 /* CircularTextFIEld2.swift */,
+				7311E96524B326EC00A96914 /* Customlabel.swift */,
+				7311E96624B326EC00A96914 /* Customtextlabel.swift */,
+				736483CC24B6FE8D00642A3C /* CircularView.swift */,
+				040EC956257B93330062F15F /* CornerScorllView.swift */,
+			);
+			path = designable;
+			sourceTree = "<group>";
+		};
+		7311E96724B326EC00A96914 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7311E96824B326EC00A96914 /* ENSideMenu.swift */,
+				7311E96924B326EC00A96914 /* ENSideMenuNavigationController.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7311E9D624B327B900A96914 /* MODULE */ = {
+			isa = PBXGroup;
+			children = (
+				7311E9D724B327B900A96914 /* RElamOBject */,
+				7311E9E424B327B900A96914 /* objectmapper */,
+				7311E9F924B327B900A96914 /* data */,
+				7311E9FC24B327B900A96914 /* Handlers */,
+			);
+			name = MODULE;
+			path = "SGH Doctor360/MODULE";
+			sourceTree = SOURCE_ROOT;
+		};
+		7311E9D724B327B900A96914 /* RElamOBject */ = {
+			isa = PBXGroup;
+			children = (
+				7311E9D824B327B900A96914 /* RealmService.swift */,
+				7311E9D924B327B900A96914 /* RouteAdminSaved2.swift */,
+				7311E9DA24B327B900A96914 /* DiagonSElectd.swift */,
+				7311E9DB24B327B900A96914 /* LabTestSelected.swift */,
+				7311E9DC24B327B900A96914 /* LabTestSaved.swift */,
+				7311E9DD24B327B900A96914 /* DiagonsicSaved.swift */,
+				7311E9DE24B327B900A96914 /* RadioSelected.swift */,
+				7311E9DF24B327B900A96914 /* DuarationSaved.swift */,
+				7311E9E024B327B900A96914 /* DrugsSaved4.swift */,
+				7311E9E124B327B900A96914 /* RadiologySaved.swift */,
+				7311E9E224B327B900A96914 /* FreqSaved2.swift */,
+				7311E9E324B327B900A96914 /* PrexcriptionFinalSaved2.swift */,
+				73EB8E0325051FA900F5B393 /* ProcedureSaveed.swift */,
+				73EB8E052505202100F5B393 /* ProcdeureSelected.swift */,
+			);
+			path = RElamOBject;
+			sourceTree = "<group>";
+		};
+		7311E9E424B327B900A96914 /* objectmapper */ = {
+			isa = PBXGroup;
+			children = (
+				7311E9E524B327B900A96914 /* DocotrTestlistReq.swift */,
+				7311E9E624B327B900A96914 /* DoctorDataList.swift */,
+				7311E9E724B327B900A96914 /* PCBaseModel.swift */,
+				7311E9E824B327B900A96914 /* Visitlist.swift */,
+				7311E9E924B327B900A96914 /* Frequncylist.swift */,
+				7311E9EA24B327B900A96914 /* Doctor.swift */,
+				7311E9EB24B327B900A96914 /* labTestDoctorlist.swift */,
+				7311E9EC24B327B900A96914 /* DrugLists .swift */,
+				7311E9ED24B327B900A96914 /* Diagonisclist.swift */,
+				7311E9EE24B327B900A96914 /* Precrptionlist.swift */,
+				7311E9EF24B327B900A96914 /* ReFerralsList.swift */,
+				7311E9F024B327B900A96914 /* RouteAdminLIst.swift */,
+				7311E9F124B327B900A96914 /* DiagonDoctorlist .swift */,
+				7311E9F224B327B900A96914 /* DruglistSented.swift */,
+				7311E9F324B327B900A96914 /* TestlistR.swift */,
+				7311E9F424B327B900A96914 /* HospitaLlists.swift */,
+				7311E9F524B327B900A96914 /* Duarationlistobj.swift */,
+				7311E9F624B327B900A96914 /* TeleMedicineOBJEct.swift */,
+				7311E9F724B327B900A96914 /* Testlist.swift */,
+				7311E9F824B327B900A96914 /* PCBaseModel2.swift */,
+				04F606F12573903A007FC5DE /* AdmissionPLaces.swift */,
+				04F606F425739A97007FC5DE /* AdmissionForms.swift */,
+				04EDF510257D041600FCE506 /* AdmittedPackage.swift */,
+				040EC9532577AE7D0062F15F /* AdmissionRequest.swift */,
+			);
+			path = objectmapper;
+			sourceTree = "<group>";
+		};
+		7311E9F924B327B900A96914 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7311E9FA24B327B900A96914 /* APIClient.swift */,
+				7311E9FB24B327B900A96914 /* API.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		7311E9FC24B327B900A96914 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				7311E9FD24B327BA00A96914 /* constants.swift */,
+				7311E9FE24B327BA00A96914 /* Language.swift */,
+				7311E9FF24B327BA00A96914 /* BundleEx.swift */,
+				7311EA0024B327BA00A96914 /* LocalizationSystem.swift */,
+				7311EA0124B327BA00A96914 /* extensindata.swift */,
+				7311EA0224B327BA00A96914 /* UIApplicationExtension.swift */,
+				7311EA0324B327BA00A96914 /* Cache.swift */,
+				7311EA0424B327BA00A96914 /* ResulatsEX.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		ECB3D947E0702FABBE370E65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE5659B6761C26BF6D8056 /* Pods-SGH Doctor360.debug.xcconfig */,
+				F00CFCD13DAD6CEBBBA8AECF /* Pods-SGH Doctor360.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +579,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7311E8FA24B3259300A96914 /* Build configuration list for PBXNativeTarget "SGH Doctor360" */;
 			buildPhases = (
+				CA08EB4BDC8FD856EBC4AD0A /* [CP] Check Pods Manifest.lock */,
 				7311E8E224B3259100A96914 /* Sources */,
 				7311E8E324B3259100A96914 /* Frameworks */,
 				7311E8E424B3259100A96914 /* Resources */,
+				D54B434A3ADBFB8CD5A9CD3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +632,193 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7311E94024B3267B00A96914 /* PatientCell.xib in Resources */,
+				7311E93624B3267B00A96914 /* LabResulautTCell2.xib in Resources */,
+				7311E93E24B3267B00A96914 /* LabResulautTCell.xib in Resources */,
 				7311E8F624B3259300A96914 /* LaunchScreen.storyboard in Resources */,
-				7311E8F324B3259300A96914 /* Assets.xcassets in Resources */,
-				7311E8F124B3259100A96914 /* Main.storyboard in Resources */,
+				042C9EE725940C740071B7EF /* Assets.xcassets in Resources */,
+				7311E92D24B3267B00A96914 /* VisitCell.xib in Resources */,
+				7311E93A24B3267B00A96914 /* TeleMedicineTVC.xib in Resources */,
+				040E48022572898D00578691 /* Main.storyboard in Resources */,
+				7311E93F24B3267B00A96914 /* ReFellSTVCells.xib in Resources */,
+				7311E92F24B3267B00A96914 /* DrugSelect.xib in Resources */,
+				7311E93B24B3267B00A96914 /* PatientTestCell.xib in Resources */,
+				7311E93324B3267B00A96914 /* homeCCl.xib in Resources */,
+				7311E93024B3267B00A96914 /* TestCell.xib in Resources */,
+				73D9A9C524F3CF62005E9EA5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA08EB4BDC8FD856EBC4AD0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGH Doctor360-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54B434A3ADBFB8CD5A9CD3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SGH Doctor360/Pods-SGH Doctor360-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SGH Doctor360/Pods-SGH Doctor360-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SGH Doctor360/Pods-SGH Doctor360-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7311E8E224B3259100A96914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E47CD2572809F00578691 /* AdmittedRequestVC.swift in Sources */,
+				7311EA1424B327BA00A96914 /* Visitlist.swift in Sources */,
+				7311EA2E24B327BA00A96914 /* ResulatsEX.swift in Sources */,
+				7311EA2924B327BA00A96914 /* BundleEx.swift in Sources */,
+				7311E94724B3267B00A96914 /* MessageVc.swift in Sources */,
+				7311E93424B3267B00A96914 /* PatientTestCell.swift in Sources */,
+				7311EA1924B327BA00A96914 /* Diagonisclist.swift in Sources */,
+				7311E97724B326ED00A96914 /* MainStackToolbarViews.swift in Sources */,
+				7311E94F24B3267B00A96914 /* CustomTabbarController.swift in Sources */,
+				7311EA1124B327BA00A96914 /* DocotrTestlistReq.swift in Sources */,
+				7311E94D24B3267B00A96914 /* RIghtleftMenu.swift in Sources */,
+				7311E94B24B3267B00A96914 /* RadioDoctorList.swift in Sources */,
+				7311E94A24B3267B00A96914 /* FinalOrderVC.swift in Sources */,
+				7311EA1224B327BA00A96914 /* DoctorDataList.swift in Sources */,
+				7311EA2824B327BA00A96914 /* Language.swift in Sources */,
+				7311E94524B3267B00A96914 /* TeleMedicine.swift in Sources */,
+				7311E97124B326ED00A96914 /* extensiondictionery.swift in Sources */,
+				7311E97924B326ED00A96914 /* Customlabel.swift in Sources */,
+				7311E93724B3267B00A96914 /* LabResulautTCell2.swift in Sources */,
+				7311E92C24B3267B00A96914 /* ReferallVc.swift in Sources */,
+				7311E97524B326ED00A96914 /* CirulartextFIeld.swift in Sources */,
+				04B7724E258A326200682B86 /* MappleExtension.swift in Sources */,
+				7311E92E24B3267B00A96914 /* LabResulautTCell.swift in Sources */,
+				7311EA1624B327BA00A96914 /* Doctor.swift in Sources */,
+				7311EA0C24B327BA00A96914 /* DuarationSaved.swift in Sources */,
+				7311EA0B24B327BA00A96914 /* RadioSelected.swift in Sources */,
+				7311EA2524B327BA00A96914 /* APIClient.swift in Sources */,
+				7311EA1824B327BA00A96914 /* DrugLists .swift in Sources */,
+				7311E97424B326ED00A96914 /* coircular.swift in Sources */,
 				7311E8EE24B3259100A96914 /* ViewController.swift in Sources */,
+				7311EA1F24B327BA00A96914 /* TestlistR.swift in Sources */,
+				7311EA0724B327BA00A96914 /* DiagonSElectd.swift in Sources */,
+				7311E97B24B326ED00A96914 /* ENSideMenu.swift in Sources */,
+				7311EA0F24B327BA00A96914 /* FreqSaved2.swift in Sources */,
+				7311EA0624B327BA00A96914 /* RouteAdminSaved2.swift in Sources */,
+				7311E96C24B326ED00A96914 /* UIScrollViewExtensions.swift in Sources */,
+				7311EA1B24B327BA00A96914 /* ReFerralsList.swift in Sources */,
+				040EC957257B93330062F15F /* CornerScorllView.swift in Sources */,
+				7311E96F24B326ED00A96914 /* ExtensionObject.swift in Sources */,
+				7311EA3424B328B800A96914 /* iOSDropDown.swift in Sources */,
+				7311EA2624B327BA00A96914 /* API.swift in Sources */,
+				7311E97224B326ED00A96914 /* cutomview.swift in Sources */,
+				7311E92924B3267B00A96914 /* VistandlabRAdioController.swift in Sources */,
+				7311E94624B3267B00A96914 /* CalenderView.swift in Sources */,
+				7311E94924B3267B00A96914 /* MakeOrderVC.swift in Sources */,
+				7311EA1324B327BA00A96914 /* PCBaseModel.swift in Sources */,
+				7311E94324B3267B00A96914 /* LOginVC.swift in Sources */,
+				7311EA2124B327BA00A96914 /* Duarationlistobj.swift in Sources */,
+				7311E96A24B326ED00A96914 /* UIImageViewExtension.swift in Sources */,
+				7311EA3824B328C600A96914 /* DrugDropDown.swift in Sources */,
+				7311E93524B3267B00A96914 /* TeleMedicineTVC.swift in Sources */,
+				7311EA1C24B327BA00A96914 /* RouteAdminLIst.swift in Sources */,
+				7311EA1D24B327BA00A96914 /* DiagonDoctorlist .swift in Sources */,
+				04F606F22573903A007FC5DE /* AdmissionPLaces.swift in Sources */,
+				7311EA2024B327BA00A96914 /* HospitaLlists.swift in Sources */,
+				7311E94E24B3267B00A96914 /* HomeVC.swift in Sources */,
+				7311EA2A24B327BA00A96914 /* LocalizationSystem.swift in Sources */,
+				7311EA3C24B328D400A96914 /* RadiologyDropDown.swift in Sources */,
+				7311EA0E24B327BA00A96914 /* RadiologySaved.swift in Sources */,
+				04EDF511257D041600FCE506 /* AdmittedPackage.swift in Sources */,
+				7311E94424B3267B00A96914 /* DiagonsisSeVCViewController.swift in Sources */,
+				7311EA3624B328C000A96914 /* DiagonsisDropDown.swift in Sources */,
+				04F606F525739A97007FC5DE /* AdmissionForms.swift in Sources */,
+				7311E97824B326ED00A96914 /* CircularTextFIEld2.swift in Sources */,
 				7311E8EA24B3259100A96914 /* AppDelegate.swift in Sources */,
+				7311E94224B3267B00A96914 /* PatientDetailsimporve.swift in Sources */,
+				7311E93124B3267B00A96914 /* homeCCl.swift in Sources */,
+				730D54EB24C5B47900C04EC0 /* SearchController.swift in Sources */,
+				7311EA1524B327BA00A96914 /* Frequncylist.swift in Sources */,
+				7311E94824B3267B00A96914 /* DrugSelectController.swift in Sources */,
+				736483CD24B6FE8D00642A3C /* CircularView.swift in Sources */,
+				73AEA7612500F0EA0023FE61 /* ProcdeureDropDown.swift in Sources */,
+				7311E96B24B326ED00A96914 /* UIColorExtension.swift in Sources */,
+				7311EA2C24B327BA00A96914 /* UIApplicationExtension.swift in Sources */,
+				7311E95124B3267B00A96914 /* PreCriptionVC.swift in Sources */,
+				7311E93C24B3267B00A96914 /* ReFellSTVCells.swift in Sources */,
+				7311EA0924B327BA00A96914 /* LabTestSaved.swift in Sources */,
+				73EB8E0425051FA900F5B393 /* ProcedureSaveed.swift in Sources */,
+				040EC95A257BA5FC0062F15F /* PAckagePopUP.swift in Sources */,
+				7311EA1724B327BA00A96914 /* labTestDoctorlist.swift in Sources */,
+				7311EA0824B327BA00A96914 /* LabTestSelected.swift in Sources */,
+				7311E93824B3267B00A96914 /* DrugSelect.swift in Sources */,
+				7311EA1E24B327BA00A96914 /* DruglistSented.swift in Sources */,
+				7311EA1024B327BA00A96914 /* PrexcriptionFinalSaved2.swift in Sources */,
+				7311E97624B326ED00A96914 /* CustomTextField.swift in Sources */,
+				7311E93924B3267B00A96914 /* VisitCell.swift in Sources */,
+				7311E94124B3267B00A96914 /* PatientDEtails.swift in Sources */,
+				7311EA2D24B327BA00A96914 /* Cache.swift in Sources */,
+				7311E95024B3267B00A96914 /* Luncher.swift in Sources */,
+				7311E97C24B326ED00A96914 /* ENSideMenuNavigationController.swift in Sources */,
+				7311E92B24B3267B00A96914 /* AllPatientList.swift in Sources */,
+				73EB8E062505202100F5B393 /* ProcdeureSelected.swift in Sources */,
+				7311EA0524B327BA00A96914 /* RealmService.swift in Sources */,
+				7311EA0D24B327BA00A96914 /* DrugsSaved4.swift in Sources */,
+				7311E97A24B326ED00A96914 /* Customtextlabel.swift in Sources */,
+				7311E96D24B326ED00A96914 /* ExtensionView.swift in Sources */,
+				7311EA2B24B327BA00A96914 /* extensindata.swift in Sources */,
+				7311EA3A24B328CD00A96914 /* LabDropDown.swift in Sources */,
+				7311E97324B326ED00A96914 /* custombutton.swift in Sources */,
+				7311EA0A24B327BA00A96914 /* DiagonsicSaved.swift in Sources */,
+				7311E94C24B3267B00A96914 /* RiGHTTTVC.swift in Sources */,
+				7311E93D24B3267B00A96914 /* PatientCell.swift in Sources */,
+				73D8A27425079096005E0D24 /* DrugsDetailsVc.swift in Sources */,
+				7311EA2424B327BA00A96914 /* PCBaseModel2.swift in Sources */,
+				7311EA2224B327BA00A96914 /* TeleMedicineOBJEct.swift in Sources */,
+				040EC9542577AE7D0062F15F /* AdmissionRequest.swift in Sources */,
+				7311E93224B3267B00A96914 /* TestCell.swift in Sources */,
+				0419B973256FCEE400660632 /* OTPViewC.swift in Sources */,
+				7311E97024B326ED00A96914 /* Extensiondata.swift in Sources */,
+				7311EA2324B327BA00A96914 /* Testlist.swift in Sources */,
+				7311EA2724B327BA00A96914 /* constants.swift in Sources */,
+				7311EA1A24B327BA00A96914 /* Precrptionlist.swift in Sources */,
+				7311E96E24B326ED00A96914 /* valadionExtnisiom .swift in Sources */,
 				7311E8EC24B3259100A96914 /* SceneDelegate.swift in Sources */,
+				7311E92A24B3267B00A96914 /* profileVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7311E8EF24B3259100A96914 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7311E8F024B3259100A96914 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7311E8F424B3259300A96914 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,17 +946,22 @@
 		};
 		7311E8FB24B3259300A96914 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EEE5659B6761C26BF6D8056 /* Pods-SGH Doctor360.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SGH Doctor360/SGH Doctor360.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K8ZP7B8L4Y;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 38EBHALBQ9;
 				INFOPLIST_FILE = "SGH Doctor360/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dsa.SGH-Doctor360";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0222;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas.dsa.SGH-Doctor360";
+				PRODUCT_NAME = "SGH Doctor360";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +969,22 @@
 		};
 		7311E8FC24B3259300A96914 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00CFCD13DAD6CEBBBA8AECF /* Pods-SGH Doctor360.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SGH Doctor360/SGH Doctor360.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K8ZP7B8L4Y;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = 38EBHALBQ9;
 				INFOPLIST_FILE = "SGH Doctor360/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dsa.SGH-Doctor360";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0222;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas.dsa.SGH-Doctor360";
+				PRODUCT_NAME = "SGH Doctor360";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,262 @@
+PODS:
+  - Alamofire (5.0.5)
+  - ALRadioButtons (1.0.2)
+  - ASSpinnerView (0.1.2)
+  - DateToolsSwift (5.0.0)
+  - DLRadioButton (1.4.12)
+  - DropDown (2.3.2)
+  - Firebase/Analytics (6.24.0):
+    - Firebase/Core
+  - Firebase/Core (6.24.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.5.0)
+  - Firebase/CoreOnly (6.24.0):
+    - FirebaseCore (= 6.7.0)
+  - Firebase/Database (6.24.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.2.1)
+  - Firebase/Messaging (6.24.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.4.0)
+  - FirebaseAnalytics (6.5.0):
+    - FirebaseCore (~> 6.7)
+    - FirebaseInstallations (~> 1.2)
+    - GoogleAppMeasurement (= 6.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - FirebaseAnalyticsInterop (1.5.0)
+  - FirebaseAuthInterop (1.1.0)
+  - FirebaseCore (6.7.0):
+    - FirebaseCoreDiagnostics (~> 1.3)
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+  - FirebaseCoreDiagnostics (1.3.0):
+    - FirebaseCoreDiagnosticsInterop (~> 1.2)
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Logger (~> 6.5)
+    - nanopb (~> 1.30905.0)
+  - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseDatabase (6.2.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseInstallations (1.2.0):
+    - FirebaseCore (~> 6.6)
+    - GoogleUtilities/Environment (~> 6.6)
+    - GoogleUtilities/UserDefaults (~> 6.6)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (4.3.4):
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+  - FirebaseMessaging (4.4.0):
+    - FirebaseAnalyticsInterop (~> 1.5)
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstanceID (~> 4.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.5)
+    - GoogleUtilities/Reachability (~> 6.5)
+    - GoogleUtilities/UserDefaults (~> 6.5)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FSCalendar (2.8.1)
+  - GoogleAppMeasurement (6.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 1.30905.0)
+  - GoogleDataTransport (6.1.0)
+  - GoogleDataTransportCCTSupport (3.1.0):
+    - GoogleDataTransport (~> 6.1)
+    - nanopb (~> 1.30905.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.6.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.6.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.6.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.6.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.6.0)"
+  - GoogleUtilities/Reachability (6.6.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.6.0):
+    - GoogleUtilities/Logger
+  - iOSDropDown (0.3.4)
+  - Koyomi (1.2.7)
+  - KVKCalendar (0.4.1)
+  - leveldb-library (1.22)
+  - MBRadioButton (1.4)
+  - MBRadioCheckboxButton (2.0)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - ObjectMapper (3.5.3)
+  - PDFReader (2.5.1)
+  - PromisesObjC (1.2.8)
+  - Protobuf (3.12.0)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
+  - ScrollableSegmentedControl (1.5.0)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SearchTextField (1.2.4)
+  - SideMenu (6.4.8)
+  - SKRadioButton (1.0.3)
+  - SwiftChart (1.0.1)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (5.0.1)
+  - VersaPlayer (3.0.2)
+  - WRCalendarView (1.0.1):
+    - DateToolsSwift
+  - YNSearch (2.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - ALRadioButtons
+  - ASSpinnerView
+  - DLRadioButton (~> 1.4)
+  - DropDown (= 2.3.2)
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - FSCalendar
+  - iOSDropDown
+  - Koyomi
+  - KVKCalendar
+  - MBRadioButton
+  - MBRadioCheckboxButton
+  - ObjectMapper (~> 3.4)
+  - PDFReader
+  - RealmSwift (~> 3.20.0)
+  - ScrollableSegmentedControl (~> 1.5.0)
+  - SDWebImage (~> 5.0)
+  - SearchTextField
+  - SideMenu (~> 6.0)
+  - SKRadioButton
+  - SwiftChart
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 5.0.1)
+  - VersaPlayer
+  - WRCalendarView
+  - YNSearch
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ALRadioButtons
+    - ASSpinnerView
+    - DateToolsSwift
+    - DLRadioButton
+    - DropDown
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FSCalendar
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleUtilities
+    - iOSDropDown
+    - Koyomi
+    - KVKCalendar
+    - leveldb-library
+    - MBRadioButton
+    - MBRadioCheckboxButton
+    - nanopb
+    - ObjectMapper
+    - PDFReader
+    - PromisesObjC
+    - Protobuf
+    - Realm
+    - RealmSwift
+    - ScrollableSegmentedControl
+    - SDWebImage
+    - SearchTextField
+    - SideMenu
+    - SKRadioButton
+    - SwiftChart
+    - SwiftyJSON
+    - Toast-Swift
+    - VersaPlayer
+    - WRCalendarView
+    - YNSearch
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  ALRadioButtons: 3aecdaebaa3c748ac9373640ee27075917b6c270
+  ASSpinnerView: 526e037b85b9db87d55db55297986b7da3059aa8
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  Firebase: b28e55c60efd98963cd9011fe2fac5a10c2ba124
+  FirebaseAnalytics: 7386fc2176e3f93ad8ef34b5b1f2b33a891e4962
+  FirebaseAnalyticsInterop: 3f86269c38ae41f47afeb43ebf32a001f58fcdae
+  FirebaseAuthInterop: a0f37ae05833af156e72028f648d313f7e7592e9
+  FirebaseCore: e610482f64097b0e9f056cd97bc6b33dfabcbb6a
+  FirebaseCoreDiagnostics: 4a773a47bd83bbd5a9b1ccf1ce7caa8b2d535e67
+  FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseDatabase: 4e99c0c475d1ee0aa64ae2b53c93f80b7b60d7d9
+  FirebaseInstallations: 2119fb3e46b0a88bfdbf12562f855ee3252462fa
+  FirebaseInstanceID: cef67c4967c7cecb56ea65d8acbb4834825c587b
+  FirebaseMessaging: 58cb17277641a0084d98d4951ba1f1fb0588c8c6
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  GoogleAppMeasurement: 4c644d86835d827bab30ab6aabb9ecaf1f500735
+  GoogleDataTransport: f6f8eba931df03ebd2232ff4645aa85f8f47b5ab
+  GoogleDataTransportCCTSupport: d70a561f7d236af529fee598835caad5e25f6d3d
+  GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  Koyomi: f03615b8d2bb5a5a4752c6404a9794ed7ef7b327
+  KVKCalendar: 38b0bdccad195bdeb64b0b72e060c99453579457
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  MBRadioButton: dcf111c9bb633d4cf6e83200d804af6e025033c8
+  MBRadioCheckboxButton: 6e2a2cdc441e292e45b64c4e65eb8fc1fc05eef2
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  PDFReader: 2c4a845d0560f33221cf911516e3b700967680f6
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
+  ScrollableSegmentedControl: 2e64bbe8968a7fcd8aae5014434481464fcdfe60
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SearchTextField: 40dc3cc57def5a211f263cac263622c163bbc25a
+  SideMenu: 4a891be552d30bb6fa87ad404d62e485f8450c34
+  SKRadioButton: fe55bd1f46302f9acbdf788021085b35a4a43b79
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  VersaPlayer: 0e9a0ea7da786729ffb377dbd17b34641a8265e4
+  WRCalendarView: 80051cb13087892eac70edf2028664cae7bae718
+  YNSearch: 56d4aad4547fd1efce355cccc220a94735b1ea14
+
+PODFILE CHECKSUM: 6908120b28a018f0fe65e5f8eb9541988994bee2
+
+COCOAPODS: 1.10.0

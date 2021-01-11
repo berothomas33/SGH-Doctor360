@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="DrugSelect" selectionStyle="default" indentationWidth="10" rowHeight="304" id="KGk-i7-Jjw" customClass="DrugSelect" customModule="SGH_Doctor360" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="665" height="304"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="665" height="304"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zph-QZ-wpJ">
+                        <rect key="frame" x="10" y="10" width="370.5" height="73"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A04-Xa-jyM">
+                        <rect key="frame" x="608.5" y="13" width="56.5" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="A04-Xa-jyM" secondAttribute="height" id="ouK-sv-2Ze"/>
+                        </constraints>
+                        <state key="normal" image="closewindow"/>
+                        <connections>
+                            <action selector="deleteFuvtion:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="lXN-gH-5AN"/>
+                        </connections>
+                    </button>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Fcf-Kp-j2x">
+                        <rect key="frame" x="0.0" y="73" width="665" height="231"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="I8H-Ci-sbE">
+                                <rect key="frame" x="0.0" y="0.0" width="665" height="57"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1ZW-u9-0B2" customClass="DropDown" customModule="SGH_Doctor360" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="665" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="onI-Q9-E69">
+                                <rect key="frame" x="0.0" y="62" width="665" height="57.5"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xZd-oR-a3I" customClass="DropDown" customModule="SGH_Doctor360" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="57.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0uH-Z5-pKN" customClass="DropDown" customModule="SGH_Doctor360" customModuleProvider="target">
+                                        <rect key="frame" x="170" y="0.0" width="192" height="57.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QyU-CI-duB" customClass="DropDown" customModule="SGH_Doctor360" customModuleProvider="target">
+                                        <rect key="frame" x="396" y="0.0" width="269" height="57.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0uH-Z5-pKN" firstAttribute="baseline" secondItem="QyU-CI-duB" secondAttribute="baseline" id="BZn-3x-4ug"/>
+                                    <constraint firstItem="xZd-oR-a3I" firstAttribute="width" secondItem="onI-Q9-E69" secondAttribute="width" multiplier="0.204812" id="TZp-3j-XN3"/>
+                                    <constraint firstItem="QyU-CI-duB" firstAttribute="width" secondItem="onI-Q9-E69" secondAttribute="width" multiplier="0.404812" id="UTZ-4G-mR4"/>
+                                    <constraint firstItem="xZd-oR-a3I" firstAttribute="baseline" secondItem="0uH-Z5-pKN" secondAttribute="baseline" id="Xcs-br-1HV"/>
+                                    <constraint firstItem="0uH-Z5-pKN" firstAttribute="width" secondItem="onI-Q9-E69" secondAttribute="width" multiplier="0.28812" id="qrU-4Z-c4P"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oEK-Ay-vyl">
+                                <rect key="frame" x="0.0" y="124.5" width="665" height="65.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="dk5-dt-vdA">
+                                        <rect key="frame" x="0.0" y="0.0" width="665" height="65.5"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="QTY" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qr3-NO-tPc">
+                                                <rect key="frame" x="0.0" y="0.0" width="665" height="21"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1qN-fG-dRd">
+                                                <rect key="frame" x="0.0" y="21" width="665" height="44.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="1qN-fG-dRd" secondAttribute="bottom" id="GzE-Yw-707"/>
+                                            <constraint firstItem="Qr3-NO-tPc" firstAttribute="height" secondItem="dk5-dt-vdA" secondAttribute="height" multiplier="0.324821" id="Hsx-u4-Ldz"/>
+                                            <constraint firstItem="Qr3-NO-tPc" firstAttribute="width" secondItem="dk5-dt-vdA" secondAttribute="width" id="X6D-Dh-fNp"/>
+                                            <constraint firstItem="1qN-fG-dRd" firstAttribute="top" secondItem="Qr3-NO-tPc" secondAttribute="bottom" id="YKy-46-3xH"/>
+                                            <constraint firstItem="Qr3-NO-tPc" firstAttribute="top" secondItem="dk5-dt-vdA" secondAttribute="top" id="a7p-i5-1n8"/>
+                                            <constraint firstItem="Qr3-NO-tPc" firstAttribute="centerX" secondItem="dk5-dt-vdA" secondAttribute="centerX" id="nkj-Lx-fh6"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="KW3-gY-fJd">
+                                <rect key="frame" x="0.0" y="195" width="665" height="36"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fg-up-oRN" customClass="DropDown" customModule="SGH_Doctor360" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="164" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="845-gc-Qdg">
+                                        <rect key="frame" x="169.5" y="0.0" width="495.5" height="36"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Remark" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2nx-gi-5F9">
+                                                <rect key="frame" x="0.0" y="0.0" width="495.5" height="11.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cxd-NC-r0D">
+                                                <rect key="frame" x="0.0" y="11.5" width="495.5" height="24.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="Cxd-NC-r0D" secondAttribute="bottom" id="2V4-XX-UoP"/>
+                                            <constraint firstItem="Cxd-NC-r0D" firstAttribute="top" secondItem="2nx-gi-5F9" secondAttribute="bottom" id="93L-Aw-DZY"/>
+                                            <constraint firstItem="2nx-gi-5F9" firstAttribute="height" secondItem="845-gc-Qdg" secondAttribute="height" multiplier="0.324821" id="DQH-cW-fOS"/>
+                                            <constraint firstItem="2nx-gi-5F9" firstAttribute="top" secondItem="845-gc-Qdg" secondAttribute="top" id="Wco-GZ-6IZ"/>
+                                            <constraint firstItem="2nx-gi-5F9" firstAttribute="centerX" secondItem="845-gc-Qdg" secondAttribute="centerX" id="cwi-AT-UkK"/>
+                                            <constraint firstItem="2nx-gi-5F9" firstAttribute="width" secondItem="845-gc-Qdg" secondAttribute="width" id="xyp-te-XeX"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="845-gc-Qdg" firstAttribute="width" secondItem="KW3-gY-fJd" secondAttribute="width" multiplier="0.745338" id="Z0h-8A-BAu"/>
+                                    <constraint firstItem="9fg-up-oRN" firstAttribute="width" secondItem="KW3-gY-fJd" secondAttribute="width" multiplier="0.246481" id="wfm-D2-R7X"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="onI-Q9-E69" firstAttribute="height" secondItem="Fcf-Kp-j2x" secondAttribute="height" multiplier="0.247186" id="3W3-pZ-BpZ"/>
+                            <constraint firstItem="oEK-Ay-vyl" firstAttribute="height" secondItem="Fcf-Kp-j2x" secondAttribute="height" multiplier="0.284062" id="Pt9-nW-dQj"/>
+                            <constraint firstItem="KW3-gY-fJd" firstAttribute="height" secondItem="Fcf-Kp-j2x" secondAttribute="height" multiplier="0.15584" id="k5F-qC-Ool"/>
+                            <constraint firstItem="I8H-Ci-sbE" firstAttribute="height" secondItem="Fcf-Kp-j2x" secondAttribute="height" multiplier="0.247186" id="l4g-u6-Y38"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zph-QZ-wpJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="11f-Ep-Tjg"/>
+                    <constraint firstAttribute="trailing" secondItem="A04-Xa-jyM" secondAttribute="trailing" id="FZE-hc-Y4u"/>
+                    <constraint firstItem="Fcf-Kp-j2x" firstAttribute="top" secondItem="zph-QZ-wpJ" secondAttribute="bottom" id="MZa-JR-Vdh"/>
+                    <constraint firstItem="A04-Xa-jyM" firstAttribute="height" secondItem="zph-QZ-wpJ" secondAttribute="height" multiplier="0.9" id="WR4-lw-RqM"/>
+                    <constraint firstItem="Fcf-Kp-j2x" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="bc9-d1-qlq"/>
+                    <constraint firstItem="A04-Xa-jyM" firstAttribute="centerY" secondItem="zph-QZ-wpJ" secondAttribute="centerY" id="cRZ-dR-MH0"/>
+                    <constraint firstItem="Fcf-Kp-j2x" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="lcA-bh-RAY"/>
+                    <constraint firstItem="zph-QZ-wpJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="moj-nr-CfG"/>
+                    <constraint firstAttribute="bottom" secondItem="Fcf-Kp-j2x" secondAttribute="bottom" id="xf4-nl-h81"/>
+                    <constraint firstItem="zph-QZ-wpJ" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.207386" id="ypk-zZ-SZw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="BeforeDrop" destination="9fg-up-oRN" id="n8Y-88-uTx"/>
+                <outlet property="DUARATION" destination="0uH-Z5-pKN" id="kv0-Sg-skl"/>
+                <outlet property="FreqDrop" destination="QyU-CI-duB" id="ZMl-Qg-Any"/>
+                <outlet property="NameofDrugs" destination="zph-QZ-wpJ" id="bTf-EV-VLu"/>
+                <outlet property="ROuation" destination="1ZW-u9-0B2" id="igC-V5-snu"/>
+                <outlet property="delete" destination="A04-Xa-jyM" id="QUt-Vb-w1E"/>
+                <outlet property="duarationno" destination="xZd-oR-a3I" id="jqx-a5-L2P"/>
+                <outlet property="textqty" destination="1qN-fG-dRd" id="ZaH-BM-H6p"/>
+            </connections>
+            <point key="canvasLocation" x="1247" y="1"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="closewindow" width="100" height="100"/>
+    </resources>
+</document>
